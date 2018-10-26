@@ -47,9 +47,7 @@ namespace XF.ControlesBasicosCorreto.ViewModel
             OnEnviar = new Command(Enviar);
             OnConfiguracao = new Command(IrConfiguracao);
         }
-
         
-
         public void Enviar()
         {
             if ((App.ControlesVM.Ativo) &&
